@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="NewsTheme" parent="NewsTheme.Base"/>
+    <!-- Base application theme. -->
+    <style name="NewsTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="textTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/textTitle</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="textSource">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/textSource</item>
+    </style>
+
+    <style name="textTime">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/textSource</item>
+    </style>
+
+    <style name="textDelete">
+        <item name="android:textColor">@color/textDelete</item>
+        <item name="android:textSize">7sp</item>
+        <item name="android:text">—-</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+</resources>

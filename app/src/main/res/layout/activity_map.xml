@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:id="@+id/map_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+    </com.baidu.mapapi.map.MapView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/map_fab_menu"
+        fab:fab_icon="@android:drawable/ic_input_add"
+        app:fab_labelsPosition="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="30dp"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        app:fab_addButtonColorPressed="#0481A5"
+        app:fab_addButtonSize="mini"
+        app:fab_labelStyle="@style/menu_labels_style"
+        app:layout_behavior="com.taozi.news.widget.FamBehavior">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#8D8989"
+            app:fab_colorPressed="#575555"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_ordinary_map"
+            app:fab_title="普通地图"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#03F808"
+            app:fab_colorPressed="#3EAB41"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_weixing_map"
+            app:fab_title="卫星地图"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FC037C"
+            app:fab_colorPressed="#A8396F"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_car"
+            app:fab_title="开启实时交通图"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#05FDC0"
+            app:fab_colorPressed="#3BB698"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_normal_map"
+            app:fab_title="正常模式"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FF9B05"
+            app:fab_colorPressed="#D08F2D"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_follow_map"
+            app:fab_title="跟随模式"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#7E06FD"
+            app:fab_colorPressed="#6122A4"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_luopan_map"
+            app:fab_title="罗盘模式"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_fab_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#00DFFF"
+            app:fab_colorPressed="#42A7B6"
+            app:fab_size="mini"
+            app:fab_icon="@mipmap/icon_my_location"
+            app:fab_title="我的位置"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</android.support.design.widget.CoordinatorLayout>

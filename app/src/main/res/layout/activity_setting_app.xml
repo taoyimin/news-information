@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:id="@+id/setting_app_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/setting_app_statue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <com.taozi.news.widget.SettingToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:setting_title="应用推荐">
+
+    </com.taozi.news.widget.SettingToolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/share_sina"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="新浪微博"
+                android:textColor="@color/userinfotext"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/app_btn_sina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="立即下载"
+                android:gravity="right|center_vertical"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#55C9C9C9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/share_tencent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="腾讯微博"
+                android:textColor="@color/userinfotext"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/app_btn_tencent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="立即下载"
+                android:gravity="right|center_vertical"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#55C9C9C9"/>
+
+    </LinearLayout>
+</LinearLayout>

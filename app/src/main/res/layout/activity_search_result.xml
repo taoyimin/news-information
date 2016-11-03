@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/search_result_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search_result_statue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <com.taozi.news.widget.SettingToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:setting_title="搜索结果">
+
+    </com.taozi.news.widget.SettingToolbar>
+
+    <TextView
+        android:id="@+id/search_result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:gravity="center"/>
+</LinearLayout>

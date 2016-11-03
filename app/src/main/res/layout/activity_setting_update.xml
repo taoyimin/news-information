@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:id="@+id/setting_update_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/setting_update_statue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <com.taozi.news.widget.SettingToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:setting_title="检查更新">
+
+    </com.taozi.news.widget.SettingToolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="已经是最新版本"
+        android:gravity="center"/>
+</LinearLayout>
