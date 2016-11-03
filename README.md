@@ -1,7 +1,21 @@
 #我的开源新闻APP项目，目前适配到Android4.0版本，仅供学习交流使用，请勿用于其他用途，目前完成度90%。
-技术点：
+##技术点：
 ####CoordinatorLayout、AppbarLayout、Toolbar、FloatingActionButton、Snackbar的使用
+####自定义搜索栏控件实现热门新闻在搜索栏中轮播
+####拥有共享元素的Activity transition动画
 ####自定义behavior
+####方向传感器与百度地图的结合使用
+####通过单例设计新闻栏目的管理类，并存储在SQLite数据库中
+####通过单例设计用户配置信息管理类，并通过SharedPreferences存储在内部储存中
+####RecyclerView的优化、多布局、滑动监听与item入场动画
+####可拖拽排序的网格RecyclerView实现新闻栏目的自由排序
+####两个网格RecyclerView之间建立联系，实现新闻栏目的自由订阅与退订
+####RecyclerView中item自定义增删动画与Fragment自定义切换动画
+####实现拍照与从相册中选择两种方式自定义头像
+####在RecyclerView的Adapter中实现新闻字体大小与图片显示模式的动态更新
+####第三方登录、百度地图、社会化分享与二维码扫码的集成
+####递归计算缓存大小与缓存清理的实现
+####Android6.0运行时权限的动态申请
 ##预览图：
 ![](https://github.com/taoyimin/New/raw/master/pic/1.jpg)
 ![](https://github.com/taoyimin/New/raw/master/pic/2.png)
