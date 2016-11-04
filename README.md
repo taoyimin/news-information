@@ -6,7 +6,6 @@
 ####自定义behavior
 ####方向传感器与百度地图的结合使用
 ####通过单例设计新闻栏目的管理类，并存储在SQLite数据库中
-####通过单例设计用户配置信息管理类，并通过SharedPreferences存储在内部储存中
 ####RecyclerView的优化、多布局、滑动监听与item入场动画
 ####可拖拽排序的网格RecyclerView实现新闻栏目的自由排序
 ####两个网格RecyclerView之间建立联系，实现新闻栏目的自由订阅与退订
@@ -22,3 +21,4 @@
 ![](https://github.com/taoyimin/New/raw/master/pic/3.png)
 ![](https://github.com/taoyimin/New/raw/master/pic/4.png)
 ![](https://github.com/taoyimin/New/raw/master/pic/5.png)
+![](https://github.com/taoyimin/New/raw/master/pic/6.png)
