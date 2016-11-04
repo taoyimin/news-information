@@ -4,6 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:background="#fff"
+              android:clickable="true"
               android:orientation="vertical">
 
     <LinearLayout
@@ -47,12 +48,22 @@
                 android:gravity="center_vertical">
 
                 <TextView
+                    android:id="@+id/my_channel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="我的频道"
                     android:textColor="@color/userinfotext"
                     android:textSize="15sp"
                     android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_alignBottom="@id/my_channel"
+                    android:layout_toRightOf="@id/my_channel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#dfdfdf"
+                    android:text="(点击取消订阅,长按拖动排序)"/>
 
 <!--                <TextView
                     android:id="@+id/navigation_sort_delete"
@@ -97,12 +108,22 @@
                 android:gravity="center_vertical">
 
                 <TextView
+                    android:id="@+id/recommend_channel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="推荐频道"
                     android:textColor="@color/userinfotext"
                     android:textSize="15sp"
                     android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_alignBottom="@id/recommend_channel"
+                    android:layout_toRightOf="@id/recommend_channel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#dfdfdf"
+                    android:text="(点击订阅频道)"/>
 
                 <LinearLayout
                     android:id="@+id/navigation_change_channel"
