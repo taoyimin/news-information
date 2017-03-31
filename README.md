@@ -1,9 +1,8 @@
-#我的开源新闻APP项目，目前适配到Android4.0版本，仅供学习交流使用，请勿用于其他用途，目前完成度90%。
-##技术点：
-####CoordinatorLayout、AppbarLayout、Toolbar、FloatingActionButton、Snackbar的使用
-####自定义搜索栏控件实现热门新闻在搜索栏中轮播
-####拥有共享元素的Activity transition动画
-####自定义behavior
+技术点：
+CoordinatorLayout、AppbarLayout、Toolbar、FloatingActionButton、Snackbar的使用
+自定义搜索栏控件实现热门新闻在搜索栏中轮播
+拥有共享元素的Activity transition动画
+自定义behavior
 ####方向传感器与百度地图的结合使用
 ####通过单例设计新闻栏目的管理类，并存储在SQLite数据库中
 ####RecyclerView的优化、多布局、滑动监听与item入场动画
