@@ -1,4 +1,4 @@
-技术点：
+技术点：<br>
 CoordinatorLayout、AppbarLayout、Toolbar、FloatingActionButton、Snackbar的使用
 自定义搜索栏控件实现热门新闻在搜索栏中轮播
 拥有共享元素的Activity transition动画
