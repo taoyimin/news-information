@@ -14,7 +14,14 @@ RecyclerView中item自定义增删动画与Fragment自定义切换动画<br>
 第三方登录、百度地图、社会化分享与二维码扫码的集成<br>
 递归计算缓存大小与缓存清理的实现<br>
 Android6.0运行时权限的动态申请<br>
-预览图：<br>
+预览图：
+<br>
+<div align="center">
+<img src="https://github.com/taoyimin/New/raw/master/pic/1.jpg" width="320"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/taoyimin/New/raw/master/pic/2.png" width="320"/>
+</div>
+<br>
 ![](https://github.com/taoyimin/New/raw/master/pic/1.jpg)
 ![](https://github.com/taoyimin/New/raw/master/pic/2.png)
 ![](https://github.com/taoyimin/New/raw/master/pic/3.png)
