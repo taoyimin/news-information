@@ -1,4 +1,4 @@
-# Technology point：<br>
+### Technology point：<br>
 CoordinatorLayout、AppbarLayout、Toolbar、FloatingActionButton、Snackbar的使用<br>
 自定义搜索栏控件实现热门新闻在搜索栏中轮播<br>
 拥有共享元素的Activity transition动画<br>
@@ -14,7 +14,7 @@ RecyclerView中item自定义增删动画与Fragment自定义切换动画<br>
 第三方登录、百度地图、社会化分享与二维码扫码的集成<br>
 递归计算缓存大小与缓存清理的实现<br>
 Android6.0运行时权限的动态申请<br>
-# Preview：
+### Preview：
 <br>
 <div align="center">
 <img src="https://github.com/taoyimin/New/raw/master/pic/1.jpg" width="320"/>
